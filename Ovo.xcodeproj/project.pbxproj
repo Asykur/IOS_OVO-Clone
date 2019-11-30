@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEFCEFB923925B8F005AE88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFB823925B8F005AE88F /* AppDelegate.swift */; };
+		DEFCEFBB23925B8F005AE88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFBA23925B8F005AE88F /* ViewController.swift */; };
+		DEFCEFBE23925B8F005AE88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFBC23925B8F005AE88F /* Main.storyboard */; };
+		DEFCEFC023925B90005AE88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFBF23925B90005AE88F /* Assets.xcassets */; };
+		DEFCEFC323925B90005AE88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFC123925B90005AE88F /* LaunchScreen.storyboard */; };
+		DEFCEFCE23925B90005AE88F /* OvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFCD23925B90005AE88F /* OvoTests.swift */; };
+		DEFCEFD923925B90005AE88F /* OvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFD823925B90005AE88F /* OvoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEFCEFCA23925B90005AE88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFCEFAD23925B8F005AE88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFCEFB423925B8F005AE88F;
+			remoteInfo = Ovo;
+		};
+		DEFCEFD523925B90005AE88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFCEFAD23925B8F005AE88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFCEFB423925B8F005AE88F;
+			remoteInfo = Ovo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEFCEFB523925B8F005AE88F /* Ovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFCEFB823925B8F005AE88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEFCEFBA23925B8F005AE88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEFCEFBD23925B8F005AE88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEFCEFBF23925B90005AE88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFCEFC223925B90005AE88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEFCEFC423925B90005AE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFCEFC923925B90005AE88F /* OvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFCEFCD23925B90005AE88F /* OvoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvoTests.swift; sourceTree = "<group>"; };
+		DEFCEFCF23925B90005AE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFCEFD423925B90005AE88F /* OvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFCEFD823925B90005AE88F /* OvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvoUITests.swift; sourceTree = "<group>"; };
+		DEFCEFDA23925B90005AE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEFCEFB223925B8F005AE88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFC623925B90005AE88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFD123925B90005AE88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEFCEFAC23925B8F005AE88F = {
+			isa = PBXGroup;
+			children = (
+				DEFCEFB723925B8F005AE88F /* Ovo */,
+				DEFCEFCC23925B90005AE88F /* OvoTests */,
+				DEFCEFD723925B90005AE88F /* OvoUITests */,
+				DEFCEFB623925B8F005AE88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEFCEFB623925B8F005AE88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCEFB523925B8F005AE88F /* Ovo.app */,
+				DEFCEFC923925B90005AE88F /* OvoTests.xctest */,
+				DEFCEFD423925B90005AE88F /* OvoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEFCEFB723925B8F005AE88F /* Ovo */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCEFB823925B8F005AE88F /* AppDelegate.swift */,
+				DEFCEFBA23925B8F005AE88F /* ViewController.swift */,
+				DEFCEFBC23925B8F005AE88F /* Main.storyboard */,
+				DEFCEFBF23925B90005AE88F /* Assets.xcassets */,
+				DEFCEFC123925B90005AE88F /* LaunchScreen.storyboard */,
+				DEFCEFC423925B90005AE88F /* Info.plist */,
+			);
+			path = Ovo;
+			sourceTree = "<group>";
+		};
+		DEFCEFCC23925B90005AE88F /* OvoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCEFCD23925B90005AE88F /* OvoTests.swift */,
+				DEFCEFCF23925B90005AE88F /* Info.plist */,
+			);
+			path = OvoTests;
+			sourceTree = "<group>";
+		};
+		DEFCEFD723925B90005AE88F /* OvoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCEFD823925B90005AE88F /* OvoUITests.swift */,
+				DEFCEFDA23925B90005AE88F /* Info.plist */,
+			);
+			path = OvoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEFCEFB423925B8F005AE88F /* Ovo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFCEFDD23925B90005AE88F /* Build configuration list for PBXNativeTarget "Ovo" */;
+			buildPhases = (
+				DEFCEFB123925B8F005AE88F /* Sources */,
+				DEFCEFB223925B8F005AE88F /* Frameworks */,
+				DEFCEFB323925B8F005AE88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ovo;
+			productName = Ovo;
+			productReference = DEFCEFB523925B8F005AE88F /* Ovo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEFCEFC823925B90005AE88F /* OvoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFCEFE023925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoTests" */;
+			buildPhases = (
+				DEFCEFC523925B90005AE88F /* Sources */,
+				DEFCEFC623925B90005AE88F /* Frameworks */,
+				DEFCEFC723925B90005AE88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEFCEFCB23925B90005AE88F /* PBXTargetDependency */,
+			);
+			name = OvoTests;
+			productName = OvoTests;
+			productReference = DEFCEFC923925B90005AE88F /* OvoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEFCEFD323925B90005AE88F /* OvoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEFCEFE323925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoUITests" */;
+			buildPhases = (
+				DEFCEFD023925B90005AE88F /* Sources */,
+				DEFCEFD123925B90005AE88F /* Frameworks */,
+				DEFCEFD223925B90005AE88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEFCEFD623925B90005AE88F /* PBXTargetDependency */,
+			);
+			name = OvoUITests;
+			productName = OvoUITests;
+			productReference = DEFCEFD423925B90005AE88F /* OvoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEFCEFAD23925B8F005AE88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "asykur khamid";
+				TargetAttributes = {
+					DEFCEFB423925B8F005AE88F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DEFCEFC823925B90005AE88F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DEFCEFB423925B8F005AE88F;
+					};
+					DEFCEFD323925B90005AE88F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DEFCEFB423925B8F005AE88F;
+					};
+				};
+			};
+			buildConfigurationList = DEFCEFB023925B8F005AE88F /* Build configuration list for PBXProject "Ovo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEFCEFAC23925B8F005AE88F;
+			productRefGroup = DEFCEFB623925B8F005AE88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEFCEFB423925B8F005AE88F /* Ovo */,
+				DEFCEFC823925B90005AE88F /* OvoTests */,
+				DEFCEFD323925B90005AE88F /* OvoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEFCEFB323925B8F005AE88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFCEFC323925B90005AE88F /* LaunchScreen.storyboard in Resources */,
+				DEFCEFC023925B90005AE88F /* Assets.xcassets in Resources */,
+				DEFCEFBE23925B8F005AE88F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFC723925B90005AE88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFD223925B90005AE88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEFCEFB123925B8F005AE88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFCEFBB23925B8F005AE88F /* ViewController.swift in Sources */,
+				DEFCEFB923925B8F005AE88F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFC523925B90005AE88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFCEFCE23925B90005AE88F /* OvoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFCEFD023925B90005AE88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFCEFD923925B90005AE88F /* OvoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEFCEFCB23925B90005AE88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEFCEFB423925B8F005AE88F /* Ovo */;
+			targetProxy = DEFCEFCA23925B90005AE88F /* PBXContainerItemProxy */;
+		};
+		DEFCEFD623925B90005AE88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEFCEFB423925B8F005AE88F /* Ovo */;
+			targetProxy = DEFCEFD523925B90005AE88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEFCEFBC23925B8F005AE88F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFCEFBD23925B8F005AE88F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEFCEFC123925B90005AE88F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEFCEFC223925B90005AE88F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEFCEFDB23925B90005AE88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEFCEFDC23925B90005AE88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEFCEFDE23925B90005AE88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ovo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.Ovo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEFCEFDF23925B90005AE88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ovo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.Ovo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEFCEFE123925B90005AE88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OvoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.OvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovo.app/Ovo";
+			};
+			name = Debug;
+		};
+		DEFCEFE223925B90005AE88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OvoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.OvoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovo.app/Ovo";
+			};
+			name = Release;
+		};
+		DEFCEFE423925B90005AE88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OvoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.OvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovo;
+			};
+			name = Debug;
+		};
+		DEFCEFE523925B90005AE88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OvoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telectg.OvoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEFCEFB023925B8F005AE88F /* Build configuration list for PBXProject "Ovo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFCEFDB23925B90005AE88F /* Debug */,
+				DEFCEFDC23925B90005AE88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFCEFDD23925B90005AE88F /* Build configuration list for PBXNativeTarget "Ovo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFCEFDE23925B90005AE88F /* Debug */,
+				DEFCEFDF23925B90005AE88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFCEFE023925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFCEFE123925B90005AE88F /* Debug */,
+				DEFCEFE223925B90005AE88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEFCEFE323925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEFCEFE423925B90005AE88F /* Debug */,
+				DEFCEFE523925B90005AE88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEFCEFAD23925B8F005AE88F /* Project object */;
+}
