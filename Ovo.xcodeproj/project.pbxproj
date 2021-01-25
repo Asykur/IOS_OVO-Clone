@@ -3,14 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37FBC5C6BB4EE3C9A85DDCB0 /* Pods_OvoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467987E51138B678B22A2E6 /* Pods_OvoTests.framework */; };
+		42D5F70F2503B844FBA0D7EB /* Pods_Ovo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58117022AB42869C72146255 /* Pods_Ovo.framework */; };
+		873E49B12FD0F25B16D8A414 /* Pods_Ovo_OvoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFCAED28356CDE69EF01CB34 /* Pods_Ovo_OvoUITests.framework */; };
+		DE17338D23A6703900A8F348 /* CellTransferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17338C23A6703900A8F348 /* CellTransferCollectionViewCell.swift */; };
+		DE17338F23A6763800A8F348 /* CellTopUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17338E23A6763800A8F348 /* CellTopUpCollectionViewCell.swift */; };
+		DE3F809F239780050053920D /* PromoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F809E239780050053920D /* PromoCollectionViewCell.swift */; };
+		DE3F80A12397A0B40053920D /* ItemPromoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3F80A02397A0B40053920D /* ItemPromoCollectionViewCell.swift */; };
+		DE669F50239B670400055308 /* TopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE669F4F239B670400055308 /* TopUpViewController.swift */; };
+		DE8EBD51239FF81100F9DC11 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EBD50239FF81100F9DC11 /* TransferViewController.swift */; };
+		DE8EBD5323A0519B00F9DC11 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EBD5223A0519B00F9DC11 /* ScanViewController.swift */; };
+		DEC0CAF42396C18C00E4BF72 /* Cell1CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0CAF32396C18C00E4BF72 /* Cell1CollectionViewCell.swift */; };
+		DEC0CAF62396CED400E4BF72 /* Cell2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0CAF52396CED400E4BF72 /* Cell2CollectionViewCell.swift */; };
+		DEC0CAF82396CF1400E4BF72 /* Cell3CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0CAF72396CF1400E4BF72 /* Cell3CollectionViewCell.swift */; };
+		DECC7A962396BD4200027C5C /* OvoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECC7A952396BD4200027C5C /* OvoViewController.swift */; };
 		DEFCEFB923925B8F005AE88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFB823925B8F005AE88F /* AppDelegate.swift */; };
 		DEFCEFBB23925B8F005AE88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFBA23925B8F005AE88F /* ViewController.swift */; };
 		DEFCEFBE23925B8F005AE88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFBC23925B8F005AE88F /* Main.storyboard */; };
-		DEFCEFC023925B90005AE88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFBF23925B90005AE88F /* Assets.xcassets */; };
+		DEFCEFC023925B90005AE88F /* notif.png.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFBF23925B90005AE88F /* notif.png.xcassets */; };
 		DEFCEFC323925B90005AE88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFCEFC123925B90005AE88F /* LaunchScreen.storyboard */; };
 		DEFCEFCE23925B90005AE88F /* OvoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFCD23925B90005AE88F /* OvoTests.swift */; };
 		DEFCEFD923925B90005AE88F /* OvoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCEFD823925B90005AE88F /* OvoUITests.swift */; };
@@ -34,11 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01D8C14A9A79B40E97C6BAF6 /* Pods-Ovo-OvoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ovo-OvoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ovo-OvoUITests/Pods-Ovo-OvoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58117022AB42869C72146255 /* Pods_Ovo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ovo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF21E1DB05610CD01EF2892 /* Pods-OvoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvoTests.release.xcconfig"; path = "Target Support Files/Pods-OvoTests/Pods-OvoTests.release.xcconfig"; sourceTree = "<group>"; };
+		85EB3F544F934355071E9528 /* Pods-OvoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OvoTests.debug.xcconfig"; path = "Target Support Files/Pods-OvoTests/Pods-OvoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9467987E51138B678B22A2E6 /* Pods_OvoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OvoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30685E8BB7C4AC38D12D73F /* Pods-Ovo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ovo.release.xcconfig"; path = "Target Support Files/Pods-Ovo/Pods-Ovo.release.xcconfig"; sourceTree = "<group>"; };
+		BD515698F6478713A702A777 /* Pods-Ovo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ovo.debug.xcconfig"; path = "Target Support Files/Pods-Ovo/Pods-Ovo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A93702E29FD450ECE2014C /* Pods-Ovo-OvoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ovo-OvoUITests.release.xcconfig"; path = "Target Support Files/Pods-Ovo-OvoUITests/Pods-Ovo-OvoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE17338C23A6703900A8F348 /* CellTransferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTransferCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE17338E23A6763800A8F348 /* CellTopUpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTopUpCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3F809E239780050053920D /* PromoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE3F80A02397A0B40053920D /* ItemPromoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPromoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE669F4F239B670400055308 /* TopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewController.swift; sourceTree = "<group>"; };
+		DE8EBD50239FF81100F9DC11 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		DE8EBD5223A0519B00F9DC11 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		DEC0CAF32396C18C00E4BF72 /* Cell1CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell1CollectionViewCell.swift; sourceTree = "<group>"; };
+		DEC0CAF52396CED400E4BF72 /* Cell2CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell2CollectionViewCell.swift; sourceTree = "<group>"; };
+		DEC0CAF72396CF1400E4BF72 /* Cell3CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell3CollectionViewCell.swift; sourceTree = "<group>"; };
+		DECC7A952396BD4200027C5C /* OvoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvoViewController.swift; sourceTree = "<group>"; };
 		DEFCEFB523925B8F005AE88F /* Ovo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFCEFB823925B8F005AE88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEFCEFBA23925B8F005AE88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEFCEFBD23925B8F005AE88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DEFCEFBF23925B90005AE88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEFCEFBF23925B90005AE88F /* notif.png.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = notif.png.xcassets; sourceTree = "<group>"; };
 		DEFCEFC223925B90005AE88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEFCEFC423925B90005AE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFCEFC923925B90005AE88F /* OvoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +80,7 @@
 		DEFCEFD423925B90005AE88F /* OvoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFCEFD823925B90005AE88F /* OvoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvoUITests.swift; sourceTree = "<group>"; };
 		DEFCEFDA23925B90005AE88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCAED28356CDE69EF01CB34 /* Pods_Ovo_OvoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ovo_OvoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D5F70F2503B844FBA0D7EB /* Pods_Ovo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FBC5C6BB4EE3C9A85DDCB0 /* Pods_OvoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873E49B12FD0F25B16D8A414 /* Pods_Ovo_OvoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B94E068CAC032A9795CF09F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58117022AB42869C72146255 /* Pods_Ovo.framework */,
+				EFCAED28356CDE69EF01CB34 /* Pods_Ovo_OvoUITests.framework */,
+				9467987E51138B678B22A2E6 /* Pods_OvoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDDD8D4A6F48AB39B196094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD515698F6478713A702A777 /* Pods-Ovo.debug.xcconfig */,
+				B30685E8BB7C4AC38D12D73F /* Pods-Ovo.release.xcconfig */,
+				01D8C14A9A79B40E97C6BAF6 /* Pods-Ovo-OvoUITests.debug.xcconfig */,
+				C3A93702E29FD450ECE2014C /* Pods-Ovo-OvoUITests.release.xcconfig */,
+				85EB3F544F934355071E9528 /* Pods-OvoTests.debug.xcconfig */,
+				5BF21E1DB05610CD01EF2892 /* Pods-OvoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DEFCEFAC23925B8F005AE88F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +141,8 @@
 				DEFCEFCC23925B90005AE88F /* OvoTests */,
 				DEFCEFD723925B90005AE88F /* OvoUITests */,
 				DEFCEFB623925B8F005AE88F /* Products */,
+				ACDDD8D4A6F48AB39B196094 /* Pods */,
+				2B94E068CAC032A9795CF09F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +160,22 @@
 			isa = PBXGroup;
 			children = (
 				DEFCEFB823925B8F005AE88F /* AppDelegate.swift */,
+				DECC7A952396BD4200027C5C /* OvoViewController.swift */,
 				DEFCEFBA23925B8F005AE88F /* ViewController.swift */,
 				DEFCEFBC23925B8F005AE88F /* Main.storyboard */,
-				DEFCEFBF23925B90005AE88F /* Assets.xcassets */,
+				DEFCEFBF23925B90005AE88F /* notif.png.xcassets */,
 				DEFCEFC123925B90005AE88F /* LaunchScreen.storyboard */,
 				DEFCEFC423925B90005AE88F /* Info.plist */,
+				DEC0CAF32396C18C00E4BF72 /* Cell1CollectionViewCell.swift */,
+				DEC0CAF52396CED400E4BF72 /* Cell2CollectionViewCell.swift */,
+				DEC0CAF72396CF1400E4BF72 /* Cell3CollectionViewCell.swift */,
+				DE3F809E239780050053920D /* PromoCollectionViewCell.swift */,
+				DE3F80A02397A0B40053920D /* ItemPromoCollectionViewCell.swift */,
+				DE669F4F239B670400055308 /* TopUpViewController.swift */,
+				DE8EBD50239FF81100F9DC11 /* TransferViewController.swift */,
+				DE8EBD5223A0519B00F9DC11 /* ScanViewController.swift */,
+				DE17338C23A6703900A8F348 /* CellTransferCollectionViewCell.swift */,
+				DE17338E23A6763800A8F348 /* CellTopUpCollectionViewCell.swift */,
 			);
 			path = Ovo;
 			sourceTree = "<group>";
@@ -132,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEFCEFDD23925B90005AE88F /* Build configuration list for PBXNativeTarget "Ovo" */;
 			buildPhases = (
+				5DB2B7550C43DBEC8CCB28CD /* [CP] Check Pods Manifest.lock */,
 				DEFCEFB123925B8F005AE88F /* Sources */,
 				DEFCEFB223925B8F005AE88F /* Frameworks */,
 				DEFCEFB323925B8F005AE88F /* Resources */,
+				BE2AB590428C4967B347E7E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEFCEFE023925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoTests" */;
 			buildPhases = (
+				305499692D7E9614DAB7F5B3 /* [CP] Check Pods Manifest.lock */,
 				DEFCEFC523925B90005AE88F /* Sources */,
 				DEFCEFC623925B90005AE88F /* Frameworks */,
 				DEFCEFC723925B90005AE88F /* Resources */,
@@ -167,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEFCEFE323925B90005AE88F /* Build configuration list for PBXNativeTarget "OvoUITests" */;
 			buildPhases = (
+				F44CB45CAFB86F92C87FDE4D /* [CP] Check Pods Manifest.lock */,
 				DEFCEFD023925B90005AE88F /* Sources */,
 				DEFCEFD123925B90005AE88F /* Frameworks */,
 				DEFCEFD223925B90005AE88F /* Resources */,
+				60CD62CDAD5F9E508DD8808A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFCEFC323925B90005AE88F /* LaunchScreen.storyboard in Resources */,
-				DEFCEFC023925B90005AE88F /* Assets.xcassets in Resources */,
+				DEFCEFC023925B90005AE88F /* notif.png.xcassets in Resources */,
 				DEFCEFBE23925B8F005AE88F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +329,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		305499692D7E9614DAB7F5B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OvoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB2B7550C43DBEC8CCB28CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ovo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CD62CDAD5F9E508DD8808A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ovo-OvoUITests/Pods-Ovo-OvoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ovo-OvoUITests/Pods-Ovo-OvoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ovo-OvoUITests/Pods-Ovo-OvoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE2AB590428C4967B347E7E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ovo/Pods-Ovo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ovo/Pods-Ovo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ovo/Pods-Ovo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44CB45CAFB86F92C87FDE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ovo-OvoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEFCEFB123925B8F005AE88F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC0CAF82396CF1400E4BF72 /* Cell3CollectionViewCell.swift in Sources */,
+				DE8EBD51239FF81100F9DC11 /* TransferViewController.swift in Sources */,
+				DE669F50239B670400055308 /* TopUpViewController.swift in Sources */,
+				DE8EBD5323A0519B00F9DC11 /* ScanViewController.swift in Sources */,
 				DEFCEFBB23925B8F005AE88F /* ViewController.swift in Sources */,
+				DEC0CAF62396CED400E4BF72 /* Cell2CollectionViewCell.swift in Sources */,
+				DECC7A962396BD4200027C5C /* OvoViewController.swift in Sources */,
+				DE17338D23A6703900A8F348 /* CellTransferCollectionViewCell.swift in Sources */,
+				DE3F809F239780050053920D /* PromoCollectionViewCell.swift in Sources */,
+				DEC0CAF42396C18C00E4BF72 /* Cell1CollectionViewCell.swift in Sources */,
 				DEFCEFB923925B8F005AE88F /* AppDelegate.swift in Sources */,
+				DE17338F23A6763800A8F348 /* CellTopUpCollectionViewCell.swift in Sources */,
+				DE3F80A12397A0B40053920D /* ItemPromoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +622,12 @@
 		};
 		DEFCEFDE23925B90005AE88F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD515698F6478713A702A777 /* Pods-Ovo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ovo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +641,12 @@
 		};
 		DEFCEFDF23925B90005AE88F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30685E8BB7C4AC38D12D73F /* Pods-Ovo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Ovo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +660,7 @@
 		};
 		DEFCEFE123925B90005AE88F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EB3F544F934355071E9528 /* Pods-OvoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +681,7 @@
 		};
 		DEFCEFE223925B90005AE88F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF21E1DB05610CD01EF2892 /* Pods-OvoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +702,7 @@
 		};
 		DEFCEFE423925B90005AE88F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01D8C14A9A79B40E97C6BAF6 /* Pods-Ovo-OvoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +722,7 @@
 		};
 		DEFCEFE523925B90005AE88F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A93702E29FD450ECE2014C /* Pods-Ovo-OvoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

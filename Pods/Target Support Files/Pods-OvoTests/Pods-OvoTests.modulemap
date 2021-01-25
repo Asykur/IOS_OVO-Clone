@@ -1,0 +1,6 @@
+framework module Pods_OvoTests {
+  umbrella header "Pods-OvoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
